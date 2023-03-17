@@ -10,6 +10,10 @@ conda create -n <name_enviornment> python=3.9
 
 conda activate <name_enviornment>
 
+# How to see the conda enviornment
+
+conda env list
+
 # how to install multiple packages through pip
 
 a. create requirements.txt
