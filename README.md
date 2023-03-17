@@ -4,7 +4,9 @@
 
 # How to create new conda enviornment
 
+```
 conda create -n <name_enviornment> python=3.9
+```
 
 # How to use newly create conda enviornment
 
