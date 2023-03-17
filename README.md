@@ -38,8 +38,12 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 mlflow.set_tracking_uri('sqlite:///mlflow.db')
 ```
 # If getting the following error
-[2023-03-17 22:42:15 +0000] [17595] [ERROR] Can't connect to ('127.0.0.1', 5000)
-Running the mlflow server failed. Please see the logs above for details.
+
+<pre>
+```plaintext
+[2023-03-17 22:42:15 +0000] [17595] [ERROR] Can't connect to ('127.0.0.1', 5000) Running the mlflow server failed. Please see the logs above for details.
+```
+</pre>
 
 do the following
 ```
