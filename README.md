@@ -15,7 +15,7 @@ conda activate <name_enviornment>
 a. create requirements.txt
 b. add all the packages in separate line
 c. Run the following command
-1. pip install requirements.txt
+1. pip install -r requirements.txt
 
 # how to check the installed package
 
@@ -25,3 +25,7 @@ pip list
 
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 
+# The artifacts will be generated in the new folder as jupyter notebook 
+# the mlruns folder will be created automatically when following command is run
+
+mlflow.set_tracking_uri('sqlite:///mlflow.db')
