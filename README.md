@@ -49,4 +49,9 @@ do the following
 ```
 lsof -i :5000
 kill -9 <pid_running>
+you can also kill multiple process open in a particular port with the following command
+
+lsof -i :5000 | awk 'NR>1 {print $2}' | xargs kill
+
+
 ```
