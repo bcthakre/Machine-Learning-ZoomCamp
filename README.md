@@ -32,6 +32,11 @@ pip list
 ```
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
+## To run mlflow on other port 
+
+mlflow ui --backend-store-uri sqlite:///mlflow.db --port 8000
+
+```
 ## The artifacts will be generated in the new folder as jupyter notebook 
 ## the mlruns folder will be created automatically when following command is run
 ```
