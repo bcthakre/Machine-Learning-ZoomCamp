@@ -60,3 +60,10 @@ lsof -i :5000 | awk 'NR>1 {print $2}' | xargs kill
 
 
 ```
+
+```
+## Following commands have changed 
+
+list_registered_models ==> search_registered_models
+list_experiments ==> search_experiments
+```
