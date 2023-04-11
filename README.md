@@ -58,6 +58,8 @@ you can also kill multiple process open in a particular port with the following 
 
 lsof -i :5000 | awk 'NR>1 {print $2}' | xargs kill
 
+lsof -i :8000 | awk 'NR>1 {print $2}' | xargs kill
+
 
 ```
 
