@@ -60,6 +60,12 @@ lsof -i :5000 | awk 'NR>1 {print $2}' | xargs kill
 
 lsof -i :8000 | awk 'NR>1 {print $2}' | xargs kill
 
+# to force close 
+
+lsof -i :8000 | awk 'NR>1 {print $2}' | xargs -r kill -9
+
+
+
 
 ```
 
