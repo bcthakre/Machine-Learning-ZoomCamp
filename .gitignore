@@ -1,3 +1,4 @@
 *.pkl
 /home/bcthakreda/mlops_zoomcamp/Machine-Learning-ZoomCamp/week2/mlruns/*
 mlruns/
+*.gitattributes
